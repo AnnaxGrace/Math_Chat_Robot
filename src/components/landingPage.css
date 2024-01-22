@@ -1,0 +1,40 @@
+.robot-head {
+    height: 100px;
+    width: 100px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.speech {
+    display: inline-block;
+}
+
+.robot-spacing {
+    margin-top: 150px;
+}
+
+.speech-bubble {
+    position: relative;
+    top: -50%;
+    background: #00aabb;
+    border-radius: .4em;
+    display: inline-block;
+    /* margin-left: 50px; */
+    padding: 5px;
+}
+
+.speech-bubble:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border: 40px solid transparent;
+    border-right-color: #00aabb;
+    border-left: 0;
+    border-bottom: 0;
+    margin-top: -15.5px;
+    margin-left: -40px;
+}
