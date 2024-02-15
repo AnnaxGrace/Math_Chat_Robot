@@ -13,8 +13,3 @@ provider "google" {
   zone    = var.zone
 }
 
-
-# resource "google_storage_bucket" "auto-expire" {
-#   name          = "aconover-terraform-test"
-#   location      = "US"
-# }

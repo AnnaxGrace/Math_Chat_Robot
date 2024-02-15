@@ -1,3 +1,3 @@
 functions-framework==3.*
-langchain
 google-cloud-aiplatform
+google-cloud-secret-manager

@@ -62,4 +62,8 @@ GNU AFFERO GENERAL PUBLIC LICENSE
 ## Contributing
 No outside contributors allowed.
 
+## Need to do
+Least privilege SA account - take away vertex ai user
+Have secrets be variablized w/in python
+Secure the function
 

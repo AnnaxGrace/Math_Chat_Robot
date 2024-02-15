@@ -1,6 +1,18 @@
 variable "projectID" {
-  description = "This is the project where are you using the API. This is the project that will be billed"
+  description = "This is the project ID where are you using the API. This is the project that will be billed"
 }
+
+variable "projectNumber" {
+  description = "This is the project number where are you using the API. This is the project that will be billed"
+}
+
+# variable "GCP_key" {
+#   description = "This is the JSON of your service account"
+# }
+
+# variable "service_account_email" {
+#   description = "This is the email of your service account that your function will use"
+# }
 
 variable "region" {
   description = "This is the region where you want to provison resources"
