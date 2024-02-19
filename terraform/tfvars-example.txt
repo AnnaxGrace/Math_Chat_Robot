@@ -6,6 +6,5 @@ projectNumber = "56832145263"
 
 editor = "thomassmith"
 
-#service_account_email = "fe-serviceaccount-terraform-re@tgs-internal-tdctf01-dev-001.iam.gserviceaccount.com"
 
   
