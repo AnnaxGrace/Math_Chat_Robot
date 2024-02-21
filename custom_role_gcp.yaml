@@ -1,0 +1,36 @@
+title: Service Account Role for Math Robot
+description: This service account holds all permissions that are needed to run the Math Robot application - no excess permissions.
+stage: GA
+includedPermissions:
+- cloudfunctions.functions.create
+- cloudfunctions.functions.delete
+- cloudfunctions.functions.get
+- cloudfunctions.functions.update
+- cloudfunctions.operations.get
+- run.services.getIamPolicy
+- run.services.setIamPolicy
+- resourcemanager.projects.getIamPolicy
+- secretmanager.secrets.create
+- secretmanager.secrets.delete
+- secretmanager.secrets.get
+- secretmanager.versions.access
+- secretmanager.versions.add
+- secretmanager.versions.destroy
+- secretmanager.versions.enable
+- secretmanager.versions.get
+- resourcemanager.projects.setIamPolicy
+- storage.buckets.getIamPolicy
+- storage.objects.list
+- iam.serviceAccounts.create
+- iam.serviceAccounts.delete
+- iam.serviceAccountKeys.create
+- iam.serviceAccountKeys.delete
+- iam.serviceAccountKeys.get
+- iam.serviceAccounts.get
+- iam.serviceAccounts.actAs
+- storage.buckets.create
+- storage.buckets.delete
+- storage.buckets.get
+- storage.objects.create
+- storage.objects.delete
+- storage.objects.get

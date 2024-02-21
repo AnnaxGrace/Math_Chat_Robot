@@ -67,7 +67,7 @@ function LandingPage() {
                 <Col></Col>
                 <Col>
                     <Form>
-                        <Form.Group className="mb-3" controlId="robot-question">
+                        <Form.Group className="mb-3 mt-2" controlId="robot-question">
                             <Form.Control type="" onChange={(e) => handleQuestionChange(e)} value={questionInput} placeholder="Enter your question!" />
                         </Form.Group>
 

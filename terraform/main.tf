@@ -13,3 +13,8 @@ provider "google" {
   zone    = var.zone
 }
 
+
+output "function_success" {
+  description = "This is the ID for the function, so that we know it was created successfully"
+  value = google_cloudfunctions2_function.ai_api_function.id
+}
